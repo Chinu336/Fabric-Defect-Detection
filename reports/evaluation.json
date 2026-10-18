@@ -1,0 +1,113 @@
+{
+  "classes": {
+    "0": "Normal",
+    "1": "Defective"
+  },
+  "feature_count": 30,
+  "train_images": 185,
+  "test_images": 62,
+  "accuracy": 0.7580645161290323,
+  "macro_f1": 0.7267117249485748,
+  "classification_report": {
+    "Normal": {
+      "precision": 0.7083333333333334,
+      "recall": 0.9714285714285714,
+      "f1-score": 0.8192771084337349,
+      "support": 35.0
+    },
+    "Defective": {
+      "precision": 0.9285714285714286,
+      "recall": 0.48148148148148145,
+      "f1-score": 0.6341463414634146,
+      "support": 27.0
+    },
+    "accuracy": 0.7580645161290323,
+    "macro avg": {
+      "precision": 0.8184523809523809,
+      "recall": 0.7264550264550265,
+      "f1-score": 0.7267117249485748,
+      "support": 62.0
+    },
+    "weighted avg": {
+      "precision": 0.8042434715821813,
+      "recall": 0.7580645161290323,
+      "f1-score": 0.7386556453982728,
+      "support": 62.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      34,
+      1
+    ],
+    [
+      14,
+      13
+    ]
+  ],
+  "test_files": [
+    "dataset\\normal\\NODefect_images\\2306894-210033u\\0013_000_02.png",
+    "dataset\\normal\\NODefect_images\\2306894-210033u\\0010_000_02.png",
+    "dataset\\normal\\NODefect_images\\2311517-195063u\\0020_000_04.png",
+    "dataset\\normal\\NODefect_images\\2306881-210020u\\0002_000_05.png",
+    "dataset\\normal\\NODefect_images\\2608691-202020u\\0006_000_01.png",
+    "dataset\\normal\\NODefect_images\\2306881-210020u\\0015_000_05.png",
+    "dataset\\defective\\Defect_images\\0045_019_04.png",
+    "dataset\\defective\\Defect_images\\0062_022_00.png",
+    "dataset\\normal\\NODefect_images\\2608691-202020u\\0012_000_01.png",
+    "dataset\\normal\\NODefect_images\\2311517-195063u\\0013_000_04.png",
+    "dataset\\normal\\NODefect_images\\2311694-1930c7u\\0015_000_03.png",
+    "dataset\\defective\\Defect_images\\0066_023_01.png",
+    "dataset\\normal\\NODefect_images\\2306894-210033u\\0002_000_02.png",
+    "dataset\\normal\\NODefect_images\\2608691-202020u\\0004_000_01.png",
+    "dataset\\defective\\Defect_images\\0016_006_02.png",
+    "dataset\\normal\\NODefect_images\\2311694-1930c7u\\0016_000_03.png",
+    "dataset\\defective\\Defect_images\\0012_006_02.png",
+    "dataset\\defective\\Defect_images\\0106_010_03.png",
+    "dataset\\normal\\NODefect_images\\2311694-2040n7u\\0011_000_00.png",
+    "dataset\\normal\\NODefect_images\\2311980-185026u\\0003_000_06.png",
+    "dataset\\normal\\NODefect_images\\2311694-2040n7u\\0020_000_00.png",
+    "dataset\\normal\\NODefect_images\\2608691-202020u\\0016_000_01.png",
+    "dataset\\normal\\NODefect_images\\2311980-185026u\\0004_000_06.png",
+    "dataset\\defective\\Defect_images\\0001_002_00.png",
+    "dataset\\defective\\Defect_images\\0080_036_01.png",
+    "dataset\\normal\\NODefect_images\\2311694-2040n7u\\0009_000_00.png",
+    "dataset\\normal\\NODefect_images\\2311517-195063u\\0018_000_04.png",
+    "dataset\\normal\\NODefect_images\\2306881-210020u\\0003_000_05.png",
+    "dataset\\defective\\Defect_images\\0030_019_02.png",
+    "dataset\\normal\\NODefect_images\\2311694-1930c7u\\0012_000_03.png",
+    "dataset\\defective\\Defect_images\\0032_019_02.png",
+    "dataset\\defective\\Defect_images\\0039_019_02.png",
+    "dataset\\defective\\Defect_images\\0046_019_04.png",
+    "dataset\\defective\\Defect_images\\0069_023_02.png",
+    "dataset\\normal\\NODefect_images\\2306894-210033u\\0001_000_02.png",
+    "dataset\\defective\\Defect_images\\0082_030_04.png",
+    "dataset\\normal\\NODefect_images\\2608691-202020u\\0002_000_01.png",
+    "dataset\\normal\\NODefect_images\\2306894-210033u\\0018_000_02.png",
+    "dataset\\defective\\Defect_images\\0026_019_02.png",
+    "dataset\\defective\\Defect_images\\0093_030_01.png",
+    "dataset\\defective\\Defect_images\\0031_019_02.png",
+    "dataset\\defective\\Defect_images\\0054_019_03.png",
+    "dataset\\normal\\NODefect_images\\2311694-2040n7u\\0008_000_00.png",
+    "dataset\\normal\\NODefect_images\\2311694-1930c7u\\0004_000_03.png",
+    "dataset\\normal\\NODefect_images\\2311517-195063u\\0009_000_04.png",
+    "dataset\\normal\\NODefect_images\\2608691-202020u\\0020_000_01.png",
+    "dataset\\normal\\NODefect_images\\2306894-210033u\\0004_000_02.png",
+    "dataset\\normal\\NODefect_images\\2608691-202020u\\0014_000_01.png",
+    "dataset\\defective\\Defect_images\\0074_010_03.png",
+    "dataset\\normal\\NODefect_images\\2311980-185026u\\0008_000_06.png",
+    "dataset\\defective\\Defect_images\\0005_002_01.png",
+    "dataset\\defective\\Defect_images\\0101_022_03.png",
+    "dataset\\defective\\Defect_images\\0035_019_02.png",
+    "dataset\\normal\\NODefect_images\\2311980-185026u\\0017_000_06.png",
+    "dataset\\defective\\Defect_images\\0055_019_06.png",
+    "dataset\\defective\\Defect_images\\0018_010_03.png",
+    "dataset\\normal\\NODefect_images\\2311980-185026u\\0007_000_06.png",
+    "dataset\\normal\\NODefect_images\\2311694-2040n7u\\0013_000_00.png",
+    "dataset\\defective\\Defect_images\\0004_002_01.png",
+    "dataset\\normal\\NODefect_images\\2311517-195063u\\0019_000_04.png",
+    "dataset\\defective\\Defect_images\\0003_002_00.png",
+    "dataset\\defective\\Defect_images\\0017_002_02.png"
+  ],
+  "note": "Preliminary random image split; related fabric types may occur in both sets."
+}
